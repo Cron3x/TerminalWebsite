@@ -10,6 +10,8 @@ function parse() {
 	console.log(command);
 	document.getElementById("prompt").value = "";
 	url = "";
+	text = "";
+	color = "";
 	switch (command){
 		case 'github' || 'gh': {
 			url = "https://github.com/cron3x";
@@ -29,10 +31,12 @@ function parse() {
 			break;
 		}
 		default: {
-			document.getElementById("return").innerHTML = `'${command}' is no valid command`;
-			document.getElementById("return").className = "text-red"
+			text = `'${command}' is no valid command`;
+			color = "text-red";
 			break;
 		}
 	}
+	document.getElementById("return").innerHTML = text;
+	document.getElementById("return").className = color;
 	window = window.open(url, '_self');
 }
