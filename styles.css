@@ -6,7 +6,8 @@
 	flex-shrink: 1;
 }
 input.cmd_prompt{
-	width: 89%;
+	width:80%;
+	min-width: 1px;
 	font-family: 'Roboto Mono', monospace;
 	border: 0;
 	background-color: #1c1c1c
@@ -44,6 +45,7 @@ input.cmd_prompt:focus{
 	color: #88c0d0
 }
 .background-color {
+	overflow: hidden;
 	font-family: 'Roboto Mono', monospace;
 	color: #eceff4;
 	background-color: #1c1c1c
