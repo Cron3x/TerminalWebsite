@@ -1,0 +1,65 @@
+
+.flex{
+	display:flex;
+}
+.cmd_prompt {
+	display: inline-block;
+	flex-shrink: 1;
+}
+input.cmd_prompt{
+	width: 89%;
+	font-family: 'Roboto Mono', monospace;
+	border: 0;
+	background-color: #1c1c1c
+}
+input.cmd_prompt:focus{
+	outline: none;
+	background-color: #1c1c1c
+}
+
+.indent{
+	text-indent: 10mm;
+}
+.text-yellow{
+	color: #ebcb8b
+}
+.text-green{
+	color: #a3be8c
+}
+.text-gray {
+	color: #d8dee9
+}
+.text-red {
+	color: #bf616a;
+}
+.text-purple {
+	color: #b48ead
+}
+.text-gray {
+	color: #d8dee9
+}
+.text-blue {
+	color: #5e81ac
+}
+.text-aqua {
+	color: #88c0d0
+}
+.background-color {
+	font-family: 'Roboto Mono', monospace;
+	color: #eceff4;
+	background-color: #1c1c1c
+}
+.glow-yellow {
+	color: #ffffff;
+	text-shadow: 0 0 10px #ebcb8b, 0 0 20px #ebcb8b, 0 0 30px #ebcb8b, 0 0 40px #ebcb8b, 0 0 50px #ebcb8b, 0 0 60px #ebcb8b, 0 0 70px #ebcb8b;
+}
+.glow-green{
+	color: #ffffff;
+	text-shadow: 0 0 10px #a3be8c, 0 0 20px #a3be8c, 0 0 30px #a3be8c, 0 0 40px #a3be8c, 0 0 50px #a3be8c, 0 0 60px #a3be8c, 0 0 70px #a3be8c;
+}
+.command{
+	text-decoration: none;
+}
+.paddingBetweenCols td {
+	padding: 0 15px;
+  }
