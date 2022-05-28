@@ -11,20 +11,20 @@ function parse() {
 	document.getElementById("prompt").value = "";
 	url = "";
 	switch (command){
-		case 'github': {
+		case 'github' || 'gh': {
 			url = "https://github.com/cron3x";
 			
 			break;
 		}
-		case 'plugins': {
+		case 'plugins' || 'pl' : {
 			url = "https://www.spigotmc.org/search/member?user_id=1309133"
 			break;
 		}
-		case 'modrinth': {
+		case 'modrinth' ||'mr': {
 			url = "https://modrinth.com/user/Cron3x";
 			break;
 		}
-		case 'curseforge': {
+		case 'curseforge' || 'cf': {
 			url = "https://www.curseforge.com/members/cron3x/projects";
 			break;
 		}
