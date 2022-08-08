@@ -15,7 +15,7 @@
 	<script type="text/javascript" src="main.js"></script>
 
 </head>
-<body class="background-color" onload="autoFocus()">
+<body class="background-color" onload="autoFocus()" id="cursor">
 	<div class="cmd_prompt">
 		<div class="flex">
 			<span class="cmd_prompt text-yellow">guest</span>
@@ -55,20 +55,20 @@
 			</tr>
 			<tr> 
 				<td><a href="https://github.com/cron3x" target="_blank" class="command"><span class="text-green"> Github </span></a></td>
-				<td><a id="link_gh" href="https://github.com/cron3x" target="_blank" class="command"><span class="glow-green"> github </span></a></td>
+				<td><a id="link_gh" href="https://github.com/cron3x" target="_blank" class="command"><span class="text-aqua"> github </span></a></td>
 				<td><a href="https://github.com/cron3x" target="_blank" class="command"><span class="text-purple">Opens my Github in an new Tab</span></a></td>
 			</tr>
 			<tr> 
 				<td><a href="https://modrinth.com/user/Cron3x" target="_blank" class="command"><span class="text-green"> Modrinth </span></a></td>
-				<td><a id="link_mr" href="https://modrinth.com/user/Cron3x" target="_blank" class="command"><span class="glow-green"> modrinth </span></a></td>
+				<td><a id="link_mr" href="https://modrinth.com/user/Cron3x" target="_blank" class="command"><span class="text-aqua"> modrinth </span></a></td>
 				<td><a href="https://modrinth.com/user/Cron3x" target="_blank" class="command"><span class="text-purple">Opens my Modrinth in an new Tab</span></a></td>
 			</tr><tr> 
 				<td><a href="https://www.curseforge.com/members/cron3x/projects" target="_blank" class="command"><span class="text-green"> CurseForge </span></a></td>
-				<td><a id="link_cf" href="https://www.curseforge.com/members/cron3x/projects" target="_blank" class="command"><span class="glow-green"> curseforge </span></a></td>
+				<td><a id="link_cf" href="https://www.curseforge.com/members/cron3x/projects" target="_blank" class="command"><span class="text-aqua"> curseforge </span></a></td>
 				<td><a href="https://www.curseforge.com/members/cron3x/projects" target="_blank" class="command"><span class="text-purple">Opens my CurseForge in an new Tab</span></a></td>
 			</tr><tr> 
 				<td><a href="https://www.spigotmc.org/search/member?user_id=1309133" target="_blank" class="command"><span class="text-green"> Plugins </span></a></td>
-				<td><a id="link_sp" href="https://www.spigotmc.org/search/member?user_id=1309133" target="_blank" class="command"><span class="glow-green"> plugins </span></a></td>
+				<td><a id="link_sp" href="https://www.spigotmc.org/search/member?user_id=1309133" target="_blank" class="command"><span class="text-aqua"> plugins </span></a></td>
 				<td><a href="https://www.spigotmc.org/search/member?user_id=1309133" target="_blank" class="command"><span class="text-purple">Opens my Spigot.org Profile in an new Tab</span></a></td>
 			</tr>
 		</table>
@@ -85,7 +85,7 @@
 			<span class="cmd_prompt text-gray">:~ $</span></div></label>
 		</div>
 		<input id="prompt" type="text" class="cmd_prompt text-red" autofocus autocomplete="off" value="" onKeyDown="if(event.keyCode==13) parse()"></div>
-		<p id="return" >
+		<p id="return" />
 	</div>
 </body>
 </html>
