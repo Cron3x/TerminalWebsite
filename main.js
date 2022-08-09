@@ -45,13 +45,9 @@ function parse() {
 function mouse_hover() {
 	var cursor = document.getElementById("cursor");
 	document.body.addEventListener("mousemove", function(e) {
-		// cursor.style.setProperty('--x', e.clientX+"px");
-		// cursor.style.setProperty('--y', e.clientY+"px");
-
-		document.body.style.backgroundColor = `#1c1c1c`;
+		document.body.style.backgroundColor = "#1c1c1c";
 		document.body.style.backgroundImage = `radial-gradient(circle at ${e.clientX}px ${e.clientY}px, #45523b 0%, rgba(28, 28, 28, 1) calc(6%))`;
 
-		//cursor.style.setProperty('--bg', bg);
-		console.log(document.body.style.backgroundImage);
+		//console.log(document.body.style.backgroundImage);
 	});
 }
